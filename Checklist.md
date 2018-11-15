@@ -1,9 +1,9 @@
 # Migration Checklist (should be used before starting). 
 
 - [ ] Check how many records will be migrated. 10 000+ is considered large and might take more time
-- [ ] Check what will be migrated 
+- [x] Check what will be migrated 
 	- [ ] Organisations
-	- [ ] Coworkers
+	- [x] Coworkers
 	- [ ] Documents
 	- [ ] Persons
 	- [ ] Deals
@@ -12,15 +12,15 @@
 - [ ] Check available consultant resources and schedule migration date
 - [ ] Check the source of the original data. We would like to access the data as untouched and raw as possible. It is possible to migrate through APIs or database dumps. We do prefer these over text-files.
 
-- [ ] Mapping of organization data: 
-	- [ ] Name
-	- [ ] Address (city, street)
-	- [ ] Organisation number
-	- [ ] Phone number
+- [x] Mapping of organization data: 
+	- [x] Name
+	- [x] Address (city, street)
+	- [x] Organisation number
+	- [x] Phone number
 	- [ ] Email
-	- [ ] Website
-	- [ ] External ID
-	- [ ] Discuss mapping of other data into tags and custom fields
+	- [x] Website
+	- [x] External ID
+	- [x] Discuss mapping of other data into tags and custom fields
 
 - [ ] Mapping of deal data
 	- [ ] External ID
